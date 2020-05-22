@@ -26,6 +26,7 @@ pipeline {
             steps {
                 echo "Start of Stage Deploy..."
 				echo "Deploying......."
+				sh "ls -la"
 				echo "End of Stage Build..."
             }
         }

@@ -27,6 +27,10 @@ pipeline {
                 echo "Start of Stage Deploy..."
                 echo "Deploying......."
                 sh "ls -la"
+                sh '''
+                   echo "Line1"
+                   echo "Line2"
+                '''
                 echo "End of Stage Build..."
             }
         }

@@ -24,5 +24,5 @@ pipeline {
                 echo "End of Stage Build"
             }
         }
-	}
+   }
 }
